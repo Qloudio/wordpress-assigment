@@ -1,17 +1,17 @@
-# Wordpress Custom Post Type And Ajax
+# Wordpress Custom Post Type And Ajax assignment
 
-Naloga s custom post type-om in ajax klicem na Wordpress platformi.
+Your mission, should you choose to accept it is to set up a simple WordPress site based on the twentyfifteen theme with a few new functionalities described below.
 
-## Navodila
-- "fork-aj" ta repository in ob končanju naloge naredi pull request
-- Uporabite temo twentyfifteen z novim custom post typom Event.
-- Vsak event ima poleg imena in opisa tudi datum, kdaj se izvede, kraj v katerem se dogaja, tip eventa (Koncert, Gledališka predstava, Konferenca, Festival...) in izbirnik drugih lastnosti, ki jih ima lahko vsak event več (Free parking, e-ticket, lunch included, early bird discount,...).
-- Na strani naj se prikažejo v seznamu, ki je omejen na 5 zadetkov z pagerjem spodaj. Nad seznamom naj bo filter, kjer lahko izberes katere tipe dogodkov naj prikazuje v seznamu.
-- Ob kliku na drugo stran ali kateri koli filter naj se seznam nalozi na novo preko ajaxa brez ponovnega nalaganja strani. 
-- Ob kliku na event se odpre nova stran s podatki eventa
+## Instructions
+- fork this repository and create a pull request at the end. Make sure you create intermittent commits so your progress through this assignment is visible
+- Use the twentyfifteen theme and add a custom post type called Event.
+- Each event should have a name, description, date of event, location of event, type (Concert, Play, Conference, Festival,...) and different characteristics of which it can have more than 1 (Free parking, e-ticket, lunch included, early bird,...). You can get creative with the types and characteristics. 
+- Create a page that shows a list of events with 5 events per page and a pager at the bottom. 
+- Create a simple filter / sort above the list
+- You can click on an event to get to an event specific page which shows the details of the event
 
-## Bonus točke:
-- V primeru da se v administraciji izbere tip Konferenca ali festival naj se pojavi še drugo datumsko polje v katerega se vpiše datum do katerega traja. To naj se pozna tudi pri prikazu eventa
-- Kakršne koli olepšave, animacije, razširitve osnovnih navodil (se pravi prikaz, CSS izboljšave).
-- celotno funkcionalnost pripravite kot Wordpress plugin in uporabite [Wordpress Plugin Boilerplate](http://wppb.io/) (generator: [http://wppb.me/](http://wppb.me/))
+## Bonus points:
+- When entering event data in Wordpress if you choose the type Conference or festival show a second date field that allows you to enter a 'To' date. This date should also show up in the list and the event details page.
+- Adding any animations or your own improvements on the base task
+- Package the whole functionality as a wordpress plugin. You can use the [Wordpress Plugin Boilerplate](http://wppb.io/) (generator: [http://wppb.me/](http://wppb.me/))
 
